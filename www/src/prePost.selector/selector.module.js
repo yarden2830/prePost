@@ -16,7 +16,9 @@
     Config.$inject = ['$stateProvider', '$urlRouterProvider'];
 
 
-  angular.module('prePost.selector', [])
+  angular.module('prePost.selector', [
+      'ionic.contrib.ui.cards'
+  ])
     .config(Config)
 
 }())
